@@ -1,6 +1,6 @@
-import CanvaClone from './components/CanvaClone/CanvaClone';
-import React from 'react';
-import './App.css';
+import CanvaClone from "./components/CanvaClone/CanvaClone";
+import React from "react";
+import "./App.css";
 
 function App() {
   return (

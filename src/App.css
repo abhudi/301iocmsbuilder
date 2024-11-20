@@ -8,7 +8,7 @@ body {
 }
 
 .App {
-  padding: 2rem;
+  /* padding: 2rem; */
   height: 100%;
   display: flex;
   justify-content: center;
