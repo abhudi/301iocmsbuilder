@@ -55,9 +55,9 @@ export const queryAirtable = ({ query, page, perPage }) => {
 export const findAirtableAssets = async (type, queryData) => {
   if (AIRTABLE_API_KEY === '' && !window.airtableWarning) {
     window.airtableWarning = true;
-    alert(
-      `Please provide your airtable API key.`
-    );
+    // alert(
+    //   `Please provide your airtable API key.`
+    // );
     return;
   }
 
